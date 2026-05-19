@@ -25,7 +25,7 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
 
-        <img src="img/HD-YNKBWAAAY2xg.jpg" alt="imagem de perfil" title="Foto de perfil">
+        <img src="C:\Users\joani\OneDrive\Documents\GitHub\site\img\Captura de tela 2026-05-19 083326.png" alt="imagem de perfil" title="Foto de perfil">
 
         <article>
 
@@ -75,10 +75,39 @@
 
             <p>Tem um projeto em mente? entre em Contato</p>
 
-            <address>
-                Email: <a href="mailto:charles45co90@gmail.com">charles45co90@gmail.com</a> <br>
-                telefone: <a href="tel:49991762028">49991762028</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="tel">Telefone: </label>
+                <input type="tel" id="Telefone" name="Telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                   <option value="orcamento">orçamento</option>
+                   <option value="duvida">duvida</option>
+                   <option value="outro">outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" required></textarea> 
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscrição">
+                <label for="inscricao">Deseja receber minha newslatter? fique por dentro</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+                
+            </form>
 
         </section>
 
